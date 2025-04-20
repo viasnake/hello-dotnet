@@ -11,3 +11,15 @@ dotnet sln add src/ExampleDotnet/ExampleDotnet.csproj
 dotnet new xunit -o test/ExampleDotnet.Tests
 dotnet sln add test/ExampleDotnet.Tests/ExampleDotnet.Tests.csproj reference src/ExampleDotnet/ExampleDotnet.csproj
 ```
+
+## test
+
+```shell
+dotnet test
+```
+
+## build
+
+```shell
+dotnet build
+```
